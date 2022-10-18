@@ -3,4 +3,5 @@
         materialized='table'
     )
 }}
-SELECT * FROM RAW1.SALESINFO.PRICECHANGEMARKER
+SELECT * FROM 
+{{ source('SALESINFO', 'PRICECHANGEMARKER') }}

@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: SALESINFO
+    database: RAW1
+    schema: SALESINFO
+    tables:
+      - name: COUNTRIES
+      - name: PRICECHANGEMARKER
+      - name: REVPERYEAR
+      - name: SALES
